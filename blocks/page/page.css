@@ -1,5 +1,4 @@
 .page {
-  width: 100%;
   display: grid;
   grid-template-columns: 290px 1fr;
   grid-template-areas: 
@@ -8,6 +7,7 @@
         "sidebar main"
         "sidebar footer";
   font-family: 'TT Interfaces', 'Arial', sans-serif;
+  width: 100vw;
 }
 
 
