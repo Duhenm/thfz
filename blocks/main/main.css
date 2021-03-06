@@ -1,6 +1,5 @@
 .main {
   grid-area: main;
-  height: 2000px;
-  padding: 0 120px;
+  padding: 40px 8% 40px 8%;
 }
 

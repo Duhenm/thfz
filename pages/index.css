@@ -44,4 +44,5 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__logo/);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/__pic/_place/logo__pic_place_footer.css);

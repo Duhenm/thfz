@@ -1,5 +1,4 @@
 .numbers {
-  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   row-gap: 30px;
@@ -7,6 +6,7 @@
   justify-items: stretch;
   padding: 0;
   list-style: none;
+  width: 100%;
 }
 /*
 @media screen and (max-width: 1279px) {

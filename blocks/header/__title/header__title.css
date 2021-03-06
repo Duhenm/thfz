@@ -15,9 +15,9 @@
 
 @media screen and (max-width: 767px) {
   .header__title {
-    font-size: 48px;
-    line-height: 60px;
-    margin: 60px 0 40px 0;
+    font-size: 36px;
+    line-height: 45px;
+    margin: 30px 0 30px 0;
   }
 }
 

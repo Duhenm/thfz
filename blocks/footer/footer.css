@@ -4,15 +4,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 36px 120px;
+  padding: 36px 8%;
   background-color: #230662;
 }
 
 @media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
-    width: calc(100% - 16px*2);
-    padding: 20px 40px;
     justify-content: left;
     align-items: flex-start;
   }
