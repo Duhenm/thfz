@@ -4,33 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тюменский Химико-Фармацевтический Завод</title>
-  <link rel="stylesheet" href="pages/about.css">
+  <link rel="stylesheet" href="pages/contacts.css">
 </head>
 <body class="page">
-  <header class="header header_theme_inner">
-    <div class="header__nav-container">
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs__container"><a class="breadcrumbs__link" href="" target="_blank">Главная</a></li>
-          <li class="breadcrumbs__container">|</li>
-          <li class="breadcrumbs__container"><a class="breadcrumbs__link" href="" target="_blank">О заводе</a></li>  
-        </ul>
-        <ul class="header__contacts">
-            <li class="header__link-container">
-              <a class="header__contact-link" href="" target="_blank">
-                <svg class="header__icon" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6.508.881L8.403 0l2.694 5.26-1.816.894c-.358.84 1.439 4.193 2.198 4.248.06-.039 1.781-.885 1.781-.885L16 14.805s-1.843.903-1.903.931C8.857 18.129 1.363 3.563 6.508.881zm1.286.85l-.682.336C3.583 3.908 9.897 16.19 13.544 14.524l.648-.316-1.514-2.922-.684.333c-2.109 1.032-5.508-5.479-3.37-6.625l.671-.331L7.794 1.73zm-.506 12.254c-.983.962-2.61 1.139-3.07.348-.313-.539-.207-1.152-.084-1.862.134-.774.286-1.652-.197-2.473C3.125 8.613 1.34 8.676 0 9.551l.637.975c.553-.361 1.19-.517 1.662-.406 1.102.259.768 1.684.687 2.153-.141.815-.3 1.74.225 2.645.887 1.53 3.369 1.365 4.86-.06-.265-.272-.526-.56-.783-.873z" />
-                </svg>
-                <p class="header__index">8 (3452) 22 52 03</p></a></li>
-            <li class="header__link-container">
-              <a class="header__contact-link" href="" target="_blank">
-                <svg class="header__icon" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 2v12h16V2H0zm14.345 1.333L8 8.475 1.655 3.333h12.69zM1.333 12.667V4.789L8 10.19l6.667-5.402v7.878H1.333z"/>
-                </svg>
-                <p class="header__index">Электронная приемная</p></a></li>
-          </ul>
-    </div>
-    <h1 class="header__title header__title_theme_inner">Контакты</h1>
-  </header>
   <aside class="sidebar">
     <sidenav class="menu">
       <a href="./index.html" target="_self" class="logo">
@@ -49,39 +25,105 @@
           <li><a class="menu-link" href="./pharmconadzor.html" target="_self"><div class="menu-link__button">Фармаконадзор</div></a></li>
         </ul>
       </nav>
-     <ul class="menu__contacts">
+      <ul class="menu__contacts">
         <li><a class="menu__contact-link" href="" target="blank"><img class="menu__icon" src="images/location.svg" alt="Иконка геолокации"><p class="menu__index">625005, г.Тюмень, ул.Береговая 24</p></a></li>
         <li><a class="menu__contact-link" href="" target="blank"><img class="menu__icon" src="images/time.svg" alt="Иконка режим работы"><p class="menu__index">пн - пт, 8:00 - 17:00</p></a></li>
       </ul>
-      <ul class="menu__buttons">
-        <li class="menu__link-container">
-          <a class="menu__button-link" href="" target="blank">
-            <svg class="menu__button-icon" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.508.881L8.403 0l2.694 5.26-1.816.894c-.358.84 1.439 4.193 2.198 4.248.06-.039 1.781-.885 1.781-.885L16 14.805s-1.843.903-1.903.931C8.857 18.129 1.363 3.563 6.508.881zm1.286.85l-.682.336C3.583 3.908 9.897 16.19 13.544 14.524l.648-.316-1.514-2.922-.684.333c-2.109 1.032-5.508-5.479-3.37-6.625l.671-.331L7.794 1.73zm-.506 12.254c-.983.962-2.61 1.139-3.07.348-.313-.539-.207-1.152-.084-1.862.134-.774.286-1.652-.197-2.473C3.125 8.613 1.34 8.676 0 9.551l.637.975c.553-.361 1.19-.517 1.662-.406 1.102.259.768 1.684.687 2.153-.141.815-.3 1.74.225 2.645.887 1.53 3.369 1.365 4.86-.06-.265-.272-.526-.56-.783-.873z" />
-            </svg>
-          </a>
-        </li>
-        <li class="menu__link-container">
-          <a class="menu__button-link" href="" target="blank">
-            <svg class="menu__button-icon" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 2v12h16V2H0zm14.345 1.333L8 8.475 1.655 3.333h12.69zM1.333 12.667V4.789L8 10.19l6.667-5.402v7.878H1.333z"/>
-            </svg>
-          </a>
-        </li>
-        <li class="menu__hamburger">
-          <div class="menu__hamburger-element"></div>
-          <div class="menu__hamburger-element"></div>
-          <div class="menu__hamburger-element"></div>
-        </li>
-      </ul>
+      <div class="hamburger__menu">
+        <input id="hamburger__toggle" type="checkbox" />
+        <label class="hamburger__btn" for="hamburger__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="hamburger__link" href="./about.html" target="_self"><div class="hamburger__text">О заводе</div></a></li>
+          <li><a class="hamburger__link" href="./news.html" target="_self"><div class="hamburger__text">Новости</div></a></li>
+          <li><a class="hamburger__link" href="./catalogue.html" target="_self"><div class="hamburger__text">Каталог продукции</div></a></li>
+          <li><a class="hamburger__link" href="./investor.html" target="_self"><div class="hamburger__text">Инвесторам</div></a></li>
+          <li><a class="hamburger__link" href="./vacancy.html" target="_self"><div class="hamburger__text">Вакансии</div></a></li>
+          <li><a class="hamburger__link" href="./contacts.html" target="_self"><div class="hamburger__text">Контакты</div></a></li>
+          <li><a class="hamburger__link" href="./work.html" target="_self"><div class="hamburger__text">Охрана труда</div></a></li>
+          <li><a class="hamburger__link" href="./pharmconadzor.html" target="_self"><div class="hamburger__text">Фармаконадзор</div></a></li>
+        </ul>
+      </div>
     </sidenav>
   </aside>
-  <main class="main">
-    ghbdtn
-  </main>
-  <footer class="footer">
-    <p class="footer__copyright">&copy; 2021. Все права защищены ООО “Тюменский Химико-Фармацевтический завод”</p>
-    <img class="footer__logo" src="images/logo-footer.svg" alt="Логотип Тюменского Химико-Фармацевтического Завода">
-  </footer>
+  <div class="content-footer">
+    <header class="header header_theme_inner">
+      <div class="header__nav-container">
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs__container"><a class="breadcrumbs__link" href="" target="_blank">Главная</a></li>
+            <li class="breadcrumbs__container">|</li>
+            <li class="breadcrumbs__container"><a class="breadcrumbs__link" href="" target="_blank">О заводе</a></li>  
+          </ul>
+          <ul class="header__contacts header__contacts_theme_inner">
+              <li class="header__link-container">
+                <a class="header__contact-link" href="" target="_blank">
+                  <svg class="header__icon" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.508.881L8.403 0l2.694 5.26-1.816.894c-.358.84 1.439 4.193 2.198 4.248.06-.039 1.781-.885 1.781-.885L16 14.805s-1.843.903-1.903.931C8.857 18.129 1.363 3.563 6.508.881zm1.286.85l-.682.336C3.583 3.908 9.897 16.19 13.544 14.524l.648-.316-1.514-2.922-.684.333c-2.109 1.032-5.508-5.479-3.37-6.625l.671-.331L7.794 1.73zm-.506 12.254c-.983.962-2.61 1.139-3.07.348-.313-.539-.207-1.152-.084-1.862.134-.774.286-1.652-.197-2.473C3.125 8.613 1.34 8.676 0 9.551l.637.975c.553-.361 1.19-.517 1.662-.406 1.102.259.768 1.684.687 2.153-.141.815-.3 1.74.225 2.645.887 1.53 3.369 1.365 4.86-.06-.265-.272-.526-.56-.783-.873z" />
+                  </svg>
+                  <p class="header__index">8 (3452) 22 52 03</p></a></li>
+              <li class="header__link-container">
+                <a class="header__contact-link" href="" target="_blank">
+                  <svg class="header__icon" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 2v12h16V2H0zm14.345 1.333L8 8.475 1.655 3.333h12.69zM1.333 12.667V4.789L8 10.19l6.667-5.402v7.878H1.333z"/>
+                  </svg>
+                  <p class="header__index">Электронная приемная</p></a></li>
+            </ul>
+      </div>
+      <h1 class="header__title header__title_theme_inner">Контакты</h1>
+    </header>
+    <main class="main">
+      <section class="content">
+        <h3 class="content__bold-text">Специальная оценка условий труда</h3>
+        <div class="accordion vertical">
+          <ul>
+              <li>
+                  <input type="checkbox" id="checkbox-1" name="checkbox-accordion" checked />
+                  <label for="checkbox-1">Title&nbsp;One</label>
+                  <div class="content">
+                      <h4>This is an example accordion item</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam.</p>
+                      <p>In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.</p>
+                  </div>
+              </li>
+              <li>
+                  <input type="checkbox" id="checkbox-2" name="checkbox-accordion" />
+                  <label for="checkbox-2">Title&nbsp;Two</label>
+                  <div class="content">
+                      <h4>Totally another one right here</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam.</p>
+                      <p>In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.</p>
+                  </div>
+              </li>
+              <li>
+                  <input type="checkbox" id="checkbox-3" name="checkbox-accordion" />
+                  <label for="checkbox-3">Title&nbsp;Three</label>
+                  <div class="content">
+                      <h4>I think I can go on forever</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam.</p>
+                      <p>In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.</p>
+                  </div>
+              </li>
+              <li>
+                  <input type="checkbox" id="checkbox-4" name="checkbox-accordion" />
+                  <label for="checkbox-4">Title&nbsp;Four</label>
+                  <div class="content">
+                      <h4>I was wrong, I'm done</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec posuere lorem. Pellentesque hendrerit, lorem luctus porttitor vestibulum, eros sapien mattis libero, euismod congue neque nisi at ipsum. Mauris semper ipsum sit amet metus semper malesuada. Donec vel est justo, ac porta diam.</p>
+                      <p>In ut est in orci commodo blandit. Cras rhoncus ultricies augue. Proin quam odio, venenatis ut tempus tristique, aliquet in velit. Pellentesque volutpat facilisis orci, ut congue mi rhoncus at. Nullam vehicula dignissim neque, sed rhoncus magna ultricies et.</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2021. Все права защищены ОАО “Тюменский Химико-Фармацевтический завод”</p>
+      <a href="./index.html" target="_self" class="logo logo_place_footer">
+        <img class="logo__pic logo__pic_place_footer" src="images/logo animation_animated2.svg" alt="Фирменный знак Тюменского Химико-Фармацевтического Завода">
+        <p class="logo__title">Тюменский Химико&#8209;Фармацевтический Завод</p>
+      </a>
+    </footer>
+  </div>
 </body>
 </html>

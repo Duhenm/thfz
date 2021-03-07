@@ -42,6 +42,7 @@
 @import url(../blocks/content/__paragraph/content__paragraph.css);
 @import url(../blocks/content/__bold-text/content__bold-text.css);
 @import url(../blocks/content/__list/content__list.css); 
+@import url(../blocks/content/__list/_theme/content__list_theme_icon.css); 
 @import url(../blocks/content/__bullit/content__bullit.css);
 @import url(../blocks/content/__link/content__link.css);
 @import url(../blocks/content/__pdf/content__pdf.css);  
