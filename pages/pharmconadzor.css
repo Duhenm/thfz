@@ -31,6 +31,7 @@
 @import url(../blocks/menu/__link-container/menu__link-container.css);
 @import url(../blocks/menu/__button-link/menu__button-link.css);
 @import url(../blocks/menu/__button-icon/menu__button-icon.css);
+@import url(../blocks/hamburger/__menu/hamburger__menu.css);
 @import url(../blocks/menu/__hamburger/menu__hamburger.css);
 @import url(../blocks/menu/__hamburger-element/menu__hamburger-element.css);
 @import url(../blocks/main/main.css);
