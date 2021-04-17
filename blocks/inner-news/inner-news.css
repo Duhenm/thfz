@@ -1,0 +1,26 @@
+.inner-news {
+  width: 100%;
+  display: block;
+}
+
+/*
+@media screen and (max-width: 1279px) {
+  .intro {
+    max-width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: calc(100% - 2*24px);
+    margin: 88px auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: 64px auto 64px auto;
+    max-width: calc(100% - 2*16px);
+  }
+}
+

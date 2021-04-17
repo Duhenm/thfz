@@ -1,0 +1,27 @@
+.warranty {
+  width: 100%;
+  margin: 0 0 92px 0;
+  padding: 70px 8% 90px 8%;
+  box-sizing: border-box;
+  background-color:white;
+}
+/*
+@media screen and (max-width: 1279px) {
+  .places {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    width: calc(100% - 2*24px);
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 100%;
+    margin-bottom: 66px;
+  }
+}

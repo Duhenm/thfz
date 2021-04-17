@@ -1,0 +1,16 @@
+.news-item__image {
+  width: 90%;
+  max-height: 500px;
+  align-self: stretch;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .news-item__image {
+        width: 100%;
+      }
+}
+

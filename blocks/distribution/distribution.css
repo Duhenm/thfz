@@ -1,0 +1,23 @@
+.distribution {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 26px;
+  padding: 70px 8% 200px 8%;;
+  box-sizing: border-box;
+}
+
+/*
+@media screen and (max-width: 1279px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,18 @@
+.inner-news__image {
+  width: 340px;
+  height: 248px;
+  object-position: center;
+  object-fit: cover;
+  margin-right: 70px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .inner-news__image {
+    width: 100%;
+    min-height: 248px;
+    margin-right: 0;
+  }
+}
+
+

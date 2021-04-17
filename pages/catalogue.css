@@ -46,8 +46,13 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/__icon/button__icon.css);
+@import url(../blocks/accordion/_accordion.css); 
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/_inner/main_inner.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/catlog/catlog.css);
+@import url(../blocks/card/card.css);
 @import url(../blocks/content/__paragraph/content__paragraph.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
