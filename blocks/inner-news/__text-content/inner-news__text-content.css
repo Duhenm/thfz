@@ -1,8 +1,8 @@
-.inner-news {
-  width: 100%;
+.inner-news__text-content {
   display: block;
   list-style: none;
   padding: 0;
+  width: 100%;
 }
 
 /*

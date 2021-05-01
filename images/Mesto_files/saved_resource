@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body-background">
+
+        <header class="header">
+            <img class="header__logo" src="./images/header-logo.svg" alt="Логотип сайта путешествие">
+        </header>
+    
+        <main class="page">
+    
+            <section class="profile">
+                <img class="profile__avatar" src="./images/avata-kysto.jpg" alt="автарка автора">
+                <div class="profile__info">
+                    <div class="profile__header-info">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1>
+                        <button class="profile__edit-btn" type="button"><img class="profile__icon" src="./images/Edit-Button.svg" alt="кнопка добавление автора"></button>
+                    </div>
+                    <p class="profile__work">Исследователь океана</p>
+                </div>
+                <button class="profile__add-btn" type="button"><img src="./images/add-vector.svg" alt="кнопка добавление фото"></button>
+    
+            </section>
+    
+            <section class="elements">
+
+                <article class="element">
+                        
+                </article>
+
+            </section>
+    
+           
+        </main>
+
+        <section  class="elements">
+            <!-- внутри контейнера будем заполнять карточки через JS теперь  -->
+        </section>
+
+        <!-- Темплайт это скелет который не будет отображаться и его надо выкинутьв низ до тега bodu -->
+        <template>
+            <article class="element">
+                <img class="element__image">
+                <h2 class="element__title"></h2>
+                <button class="element__like" type="button"></button>
+            </article>
+        </template>
+
+
+        <footer class="footer">
+            <p class="footer__copywriter">	&copy; 2020 Mesto Russia</p>
+        </footer>
+        
+        <div class="popup popup_profile">
+            <form class="popup__container popup__container_profile " method='POST' name='popup-container' novalidate autocomplete="off">
+                <button class="popup__close popup__close_profile " type="button"></button>
+                <h3 class="popup__title">Редактировать профиль</h3>
+
+                <input id="name-input"  class="popup__input"  type="text"  name="name" placeholder="Имя" required minlength="2" maxlength="40">
+                <span  id="name-input--error" class="popup__input-error"></span>
+
+                <input id="work-input"  class="popup__input "  type="text" name="work" placeholder="О себе" required minlength="2" maxlength="200">
+                <span  id="work-input--error" class="popup__input-error"></span>
+
+                <button type="submit" class="popup__save-btn popup__save-btn_disabled" disabled>Сохранить</button>
+            </form>
+
+        </div>
+
+        <div class="popup popup_add-cards">
+
+            <form class="popup__container popup__container_cards" action="#" method='POST' name='popup-container' novalidate  autocomplete="off">
+                <button class="popup__close popup__close-cards" type="button"></button>
+                <h3 class="popup__title">Новое место</h3>
+
+                <input id="description-card"  class="popup__input popup__input-description "    type="text"  placeholder="Название" required>
+                <span id="description-card--error" class="popup__input-error" ></span>
+
+                <input  class="popup__input popup__input-images" id="url-card"   type="url"  placeholder="Ссылка на картинку" required>
+                <span  id="url-card--error" class="popup__input-error"></span>
+
+                <button type="submit" class="popup__save-btn popup__save-btn_disabled" disabled>Создать</button>
+
+            </form>
+
+        </div>
+
+        <div class="popup popup_preview">
+            
+            <form class="popup__container-preview" method='POST' name='popup-container'>
+                <button class="popup__close popup__close_preview" type="button"></button>
+                <figure class="preview">
+                    <img class="preview__img" alt="фото" src="#">
+                    <figcaption class="preview__signature"></figcaption>
+                </figure>
+            </form>
+        </div>
+
+        <template id="card-template">
+
+            <div class="directors__item">
+              <div class="element__header">
+                <img class="element__image">
+                <img class="element__backet"  src="./images/backet.svg" alt="Корзина для удаление фото-карточки">
+              </div>
+              <div class="element__footer">
+                <h2 class="element__place-travel"></h2>
+                <button class="element__like" type="button" aria-label="Like"></button>
+              </div>
+            </div>
+        </template>
+
+    <script src="scripts/validate.js"></script>
+    <script src="scripts/initial-сards.js"></script>
+    <script src="scripts/index.js"></script>
+    
+    
+    
+</body>
+</html>

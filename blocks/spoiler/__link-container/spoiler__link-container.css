@@ -1,0 +1,10 @@
+.spoiler__link-container {
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.spoiler__link-container:last-child {
+  margin-bottom: 0;
+}
+
+

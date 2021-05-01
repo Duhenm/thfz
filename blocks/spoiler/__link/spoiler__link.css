@@ -1,0 +1,11 @@
+.spoiler__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E60094;
+}
+

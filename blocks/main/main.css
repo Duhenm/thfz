@@ -2,5 +2,6 @@
   grid-area: main;
   background-color: #F8FAFC;
   padding: 10px 8% 0 8%;
+  box-sizing: border-box;
 }
 

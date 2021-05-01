@@ -1,6 +1,8 @@
 .inner-news {
-  width: 100%;
-  display: block;
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 /*
