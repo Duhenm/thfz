@@ -10,11 +10,7 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 1279px) {
-  .menu__links {
-    display: none;
-  }
-}
+
 /*
 @media screen and (max-width: 767px) {
     .place__website {

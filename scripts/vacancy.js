@@ -1,3 +1,12 @@
+  const button = document.querySelector('.menu__burger-button');
+  const aside = document.querySelector('.menu__nav')
+     
+  button.addEventListener('click', (e) => {
+    button.classList.toggle('menu__burger-button_active');
+    aside.classList.toggle('menu__nav_active')
+  });
+  
+
 document.querySelector('.content').addEventListener('click', function (evt) {
   if (evt.target.classList.contains('spoiler__header')) {
     const spoilerContent = evt.target.nextElementSibling;

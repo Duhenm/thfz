@@ -17,10 +17,16 @@
 @import url(../blocks/breadcrumbs/__link/breadcrumbs__link.css);
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__nav/menu__nav.css);
+@import url(../blocks/menu/__nav/_active/menu__nav_active.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__pic/logo__pic.css);
 @import url(../blocks/logo/__title/logo__title.css);
 @import url(../blocks/menu/__links/menu__links.css);
+@import url(../blocks/menu/__aside/menu__aside.css);
+@import url(../blocks/menu/__burger-button/menu__burger-button.css);
+@import url(../blocks/menu/__burger-lines/menu__burger-lines.css);
+@import url(../blocks/menu/__burger-button/_active/menu__burger-button_active.css);
 @import url(../blocks/menu/__link-button/menu__link-button.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__contacts/menu__contacts.css);
@@ -31,8 +37,6 @@
 @import url(../blocks/menu/__link-container/menu__link-container.css);
 @import url(../blocks/menu/__button-link/menu__button-link.css);
 @import url(../blocks/menu/__button-icon/menu__button-icon.css);
-@import url(../blocks/menu/__hamburger/menu__hamburger.css);
-@import url(../blocks/menu/__hamburger-element/menu__hamburger-element.css);
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/number/number.css);
 @import url(../blocks/number/__line/number__line.css);
