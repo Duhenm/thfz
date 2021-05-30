@@ -1,22 +1,17 @@
 .warranty__item_position_bottom-center {
-}
-/*
-@media screen and (max-width: 1279px) {
-  .places {
-    width: calc(100% - 2*48px);
-  }
+  border: none;
 }
 
 @media screen and (max-width: 1023px) {
-  .places {
-    width: calc(100% - 2*24px);
-    margin-bottom: 90px;
+  .warranty__item_position_bottom-center {
+    border-left: none;
+    border-right: 1px dotted #E0E0E0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places {
-    width: 100%;
-    margin-bottom: 66px;
+  .warranty__item_position_bottom-center {
+    border-bottom: 1px dotted #E0E0E0;
+    border-right: none;
   }
 }

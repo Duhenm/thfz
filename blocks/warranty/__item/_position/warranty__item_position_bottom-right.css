@@ -2,23 +2,14 @@
   border-left: 1px dotted #E0E0E0;
 }
 
-/*
-@media screen and (max-width: 1279px) {
-  .places {
-    width: calc(100% - 2*48px);
-  }
-}
-
 @media screen and (max-width: 1023px) {
-  .places {
-    width: calc(100% - 2*24px);
-    margin-bottom: 90px;
+  .warranty__item_position_bottom-right {
+    border-left: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places {
-    width: 100%;
-    margin-bottom: 66px;
+  .warranty__item_position_bottom-right {
+    border-left: none;
   }
 }

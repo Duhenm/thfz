@@ -1,16 +1,5 @@
-.distribution__list {
+.products__list {
 list-style: none;
+grid-template-rows: repeat(8, 1fr);
 padding: 0;
 }
-
-@media screen and (max-width: 1023px) {
-    .lead__caption {
-      margin-left: 24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .lead__caption {
-      margin-left: 16px;
-    }
-}  

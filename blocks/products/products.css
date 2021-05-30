@@ -2,23 +2,16 @@
   width: 100%;
   margin: 0 auto 0 auto;
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 26px;
   padding: 70px 8% 200px 8%;;
   box-sizing: border-box;
   background-color: white;
 }
 
-/*
-@media screen and (max-width: 1279px) {
-  .lead {
-    width: calc(100% - 2*48px);
-  }
-}
-
 @media screen and (max-width: 1023px) {
-  .lead {
-    width: 100%;
+  .products {
+    grid-template-columns: 1fr;
   }
 }
 
