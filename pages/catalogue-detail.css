@@ -60,6 +60,7 @@
 @import url(../blocks/card-detail/__subtitle/card-detail__subtitle.css);
 @import url(../blocks/card-detail/__link-container/card-detail__link-container.css);
 @import url(../blocks/card-detail/__text/card-detail__text.css);
+@import url(../blocks/card-detail/__text/_long-string/card-detail__text_long-string.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_send.css);
 @import url(../blocks/button/__link-text/button__link-text.css);
