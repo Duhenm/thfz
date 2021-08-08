@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.menu__burger-button:hover {
+  opacity: 0.5;;
+}
+
 .menu__burger-button:active, .menu__burger-button:focus {
   outline: none;
   box-shadow: none;
