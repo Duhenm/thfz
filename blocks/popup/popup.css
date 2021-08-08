@@ -15,3 +15,11 @@
   transition: visibility 0.3s, opacity 0.3s ease-in;
   z-index: 5;
 }
+
+@media screen and (max-width: 767px) {
+  .popup {
+    padding-left: 19px;
+    padding-right: 19px;
+    box-sizing: border-box;
+  }
+}
