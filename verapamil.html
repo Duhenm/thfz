@@ -72,10 +72,10 @@
         <section class="content">
           <div class="card-detail">
             <div class="card-detail__container">
-                <div class="card-detail__image-container">
+                <button class="card-detail__image-container">
                   <div class="card-detail__dark-layer"></div>
                   <img src="./images/верапамил_80мг_02.jpg" class="card-detail__image">
-                </div>
+                </button>
                 <div class="card-detail__content">
                   <h4 class="card-detail__title">Верапамил-ЛЕКТ, 80мг (50 таблеток)</h4>
                   <div class="card-detail__string">
@@ -93,10 +93,6 @@
                   <div class="card-detail__string">
                     <p class="card-detail__subtitle">Таблеток в упаковке:</p>
                     <p class="card-detail__text">50</p>
-                  </div>
-                  <div class="card-detail__string card-detail__string_long">
-                    <p class="card-detail__subtitle">Условия хранения:</p>
-                    <p class="card-detail__text">Хранить в защищенном от света месте, при температуре не выше 25 °C. Хранить в недоступном для детей месте.</p>
                   </div>
                   <div class="card-detail__string card-detail__string_long">
                     <p class="card-detail__subtitle">Описание:</p>
@@ -121,6 +117,14 @@
       </a>
     </footer>
   </div>
-  <script src="./scripts/pharmconadzor.js"></script>
+  <section class="popup popup_type_image">
+    <figure class="popup__window popup__window_image">
+      <button type="button" class="button_type_close"></button>
+      <img class="popup__image" src="/" alt="/">
+      <figcaption class="popup__caption"></figcaption>
+    </figure>
+    <div class="popup__overlay popup__overlay_image"></div>
+  </section>
+  <script src="./scripts/catalogue-detail.js"></script>
 </body>
 </html>

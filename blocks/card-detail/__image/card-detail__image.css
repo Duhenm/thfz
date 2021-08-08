@@ -2,27 +2,28 @@
   max-width: 430px;
   max-height: 430px;
   object-position: center;
-  object-fit: contain;
+  object-fit: cover;
   margin: 0;
   box-sizing: border-box;
+  transition: transform .2s ease-in;
 }
 
 @media screen and (max-width: 1712px) {
   .card-detail__image {
-    max-height: 300px;
+    max-height: 400px;
   }
 }
 
 @media screen and (max-width: 1506px) {
   .card-detail__image {
-    max-width: 500px;
+    width: 100%;
     max-height: 700px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card-detail__image {
-    max-width: 300px;
+    width: 100%;
     max-height: 400px;
     margin-right: 0;
   }
@@ -30,7 +31,7 @@
 
 @media screen and (max-width: 400px) {
   .card-detail__image {
-    max-width: 200px;
+    width: 100%;
     max-height: 260px;
     margin-right: 0;
   }
