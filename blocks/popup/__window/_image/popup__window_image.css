@@ -1,6 +1,6 @@
 .popup__window_image {
-  max-width: 75vw;
-  max-height: 75vh;
+  max-width: 70vw;
+  max-height: 70vh;
   background: none;
   box-sizing: border-box;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);

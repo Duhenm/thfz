@@ -1,7 +1,5 @@
 .card-detail__image-container {
   overflow: hidden;
-  box-sizing: border-box;
-  display: inline-block;
   position: relative;
   max-width: 430px;
   max-height: 430px;
@@ -9,10 +7,11 @@
   margin-right: 70px;
   margin-bottom: 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: stretch;
   cursor: pointer;
   border: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 1712px) {
