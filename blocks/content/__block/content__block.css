@@ -1,7 +1,7 @@
 .content__block {
-  margin: 0 0 60px 0;
+  padding: 0 0 40px 0;
 }
 
 .content__block:last-of-type {
-  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }

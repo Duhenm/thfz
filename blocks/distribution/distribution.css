@@ -3,14 +3,16 @@
   margin: 0 auto 0 auto;
   display: grid;
   grid-template-columns: 2fr 4fr;
+  align-items: center;
   gap: 26px;
-  padding: 70px 8% 200px 8%;;
+  padding: 60px 8% 60px 8%;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
   .distribution {
     grid-template-columns: 1fr;
+    padding: 40px 8% 40px 8%;
   }
 }
 
