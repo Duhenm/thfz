@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto 0 auto;
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 26px;
   padding: 60px 8% 60px 8%;

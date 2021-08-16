@@ -9,6 +9,7 @@
 @import url(../blocks/menu/__nav/_active/menu__nav_active.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__pic/logo__pic.css);
+@import url(../blocks/logo/__subtitle/logo__subtitle.css);
 @import url(../blocks/logo/__title/logo__title.css);
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__aside/menu__aside.css);
@@ -66,6 +67,8 @@
 @import url(../blocks/warranty/__paragraph/warranty__paragraph.css);
 @import url(../blocks/distribution/distribution.css);
 @import url(../blocks/distribution/__title/distribution__title.css);
+@import url(../blocks/distribution/__container/distribution__container.css);
+@import url(../blocks/distribution/__paragraph/_type/distribution__paragraph_type_bold.css);
 @import url(../blocks/distribution/__image-content/distribution__image-content.css);
 @import url(../blocks/distribution/__image/distribution__image.css);
 @import url(../blocks/distribution/__paragraph/distribution__paragraph.css);

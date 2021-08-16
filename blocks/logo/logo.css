@@ -1,11 +1,12 @@
 .logo {
   display: flex;
   flex-direction: column;
-  margin-left: 38px;
-  margin-right: 38px;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
   padding: 0;
   transition: opacity 0.1s ease-in;
+  text-decoration: none;
 }
 
 .logo:hover {
