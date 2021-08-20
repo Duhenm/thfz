@@ -8,7 +8,7 @@
 
 const counters = document.querySelectorAll('.number__title');
 console.log (counters);
-const speed = 78; // The lower the slower
+const speed = 56; // The lower the slower
 
 counters.forEach(counter => {
 	const updateCount = () => {
