@@ -6,6 +6,8 @@
   margin-top: 15px;
   object-fit: cover;
   object-position: center;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 @media screen and (max-width: 1023px) {
