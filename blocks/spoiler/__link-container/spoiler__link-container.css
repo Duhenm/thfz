@@ -8,4 +8,10 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 400px) {
+  .spoiler__link-container {
+    align-items: center;
+  }
+}
+
 

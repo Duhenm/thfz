@@ -9,3 +9,19 @@
   color: #E60094;
 }
 
+@media screen and (max-width: 767px) {
+  .spoiler__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .spoiler__link {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
