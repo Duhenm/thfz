@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 400px) {
   .content__pdf {
-    margin-right: 0;
+    margin-right: 8px;
     margin-bottom: 8px;
   }
 }
