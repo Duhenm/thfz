@@ -12,6 +12,14 @@
     border: none;
     color: white;
 }
+
+button:active, button:focus {
+   outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0 !important;
+}
 /*
 @media screen and (max-width: 1279px) {
     .place {
