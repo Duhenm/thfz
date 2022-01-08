@@ -4,6 +4,7 @@
   object-fit: cover;
   object-position: center;
   border-radius: 0px;
+  max-height: 500px;
 }
 
 @media screen and (max-width: 1440px) {
