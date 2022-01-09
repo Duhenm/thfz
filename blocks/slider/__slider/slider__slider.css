@@ -2,7 +2,7 @@
   position: relative;
   left: 0;
   height: 100%;
-  width: 500%;
+  width: 1000%;
   transition: 300ms ease-in-out;
   background-position: center;
 }

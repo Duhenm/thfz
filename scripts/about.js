@@ -20,7 +20,7 @@
     {
       if(total == 0)
       {
-        total = -400;
+        total = -900;
         slider.style.left = total + '%';
       }
       else
@@ -31,7 +31,7 @@
     }
     else
     {
-      if(total == -400)
+      if(total == -900)
       {
         total = 0;
         slider.style.left = total;
