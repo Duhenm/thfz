@@ -3,7 +3,7 @@
   background-image: url(../../../images/background-image_2.jpg);
   background-size: cover;
   background-position: top;
-  background-color: teal;
+  background-color: rgb(236, 236, 236);
 }
 
 @media screen and (max-width: 1599px) {
