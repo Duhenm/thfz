@@ -48,6 +48,7 @@
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__paragraph/news__paragraph.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/__icon/button__icon.css);
 @import url(../blocks/button/_type/button_type_more-text.css);
